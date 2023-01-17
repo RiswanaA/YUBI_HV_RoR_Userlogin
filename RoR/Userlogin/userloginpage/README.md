@@ -1,24 +1,12 @@
-# README
+User account creation with the the following parameters:<br/>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+a. user email <br/>
 
-Things you may want to cover:
+b. user name <br/>
 
-* Ruby version
+c. user password <br/>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ADD, UPDATE, VIEW, DELETE are used .<br/>
+Login controller is used to take username  and password to authenticate.<br/>
+Correspondingly, it shows "LOGIN SUCCESSFUL" if user already have a account<br/>
+Else, user account is not existing/Incorrect password  message will pop up.<br/>
